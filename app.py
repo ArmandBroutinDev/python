@@ -56,5 +56,7 @@ if ds is not None:
     st.pyplot()
 
     st.subheader("Un graphique en barres afin de visualiser la taille du dataset par caractéristiques (on pourra notamment grouper les données afin d’avoir des graphiques plus précis)")
-
+    col = ds[selec]
+    sns.displot(col)
+    st.write(plt.show())
     
