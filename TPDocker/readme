@@ -32,3 +32,4 @@ exemple :
 sudo docker build -t [nom du fichier]:01 .
 sudo docker run -d -p 5000:5000 [nom du fichier]:01
 sudo docker exec -it [le retour du run] /bin/bash
+sudo docker logs [id renvoyé par le build]
