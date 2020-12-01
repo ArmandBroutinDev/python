@@ -24,3 +24,4 @@ commande que l'on veut executer dans le conteneur
 les commandes dans le terminal/ cmd
 docker build permet de faire une image depuis le conteneur indiqué
 docker run permet d'instancier une image
+docker exec pour lancer une commande sur le conteneur
