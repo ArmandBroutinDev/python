@@ -12,4 +12,4 @@ RUN pip3 install -r ./requirements.txt
 
 EXPOSE 5000
 
-CMD ["python","./truc.py"]
+CMD ["python3","./truc.py"]
