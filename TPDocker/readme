@@ -27,3 +27,8 @@ docker run permet d'instancier une image
 docker exec pour lancer une commande sur le conteneur
 docker ps pour savoir quels sont les conteneurs qui tournent
 docker images pour afficher les images qu'on a recup
+
+exemple :
+sudo docker build -t [nom du fichier]:01 .
+sudo docker run -d -p 5000:5000 [nom du fichier]:01
+sudo docker exec -it [le retour du run] /bin/bash
