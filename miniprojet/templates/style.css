@@ -1,5 +1,9 @@
  /*Cette page CSS a été récupéré sur https://www.w3schools.com et a été légérement modifiée */
  /* The sidebar menu */
+ a {
+  color: #7491f0;
+  text-decoration: none;
+}
  .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 160px; /* Set the width of the sidebar */
@@ -15,14 +19,12 @@
   /* The navigation menu links */
   .sidenav a {
     padding: 6px 8px 6px 16px;
-    text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
   }
-  
   /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
+  a:hover {
     color: #bd5b5b;
   }
   
@@ -31,7 +33,6 @@
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
     color: #d1d1d1;
-    text-decoration: none;
   }
   body{
     background-color: #464646;
