@@ -4,6 +4,6 @@ Je voulais faire un site assez simple en utilisant docker flask et du html qui p
 
 lien : /todo
 ### plan du site:
-Accueil
-A propos (présentation subcinte et lien vers mon github)
-Me Contacter (lien email et linkedin)
+Accueil<br>
+A propos (présentation subcinte et lien vers mon github)<br>
+Me Contacter (lien email et linkedin)<br>
